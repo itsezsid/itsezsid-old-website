@@ -1,0 +1,68 @@
+html {
+      scroll-behavior: smooth;
+}
+
+.hero-text {
+      font-family: 'Archivo', sans-serif;
+}
+
+.tracking-ultrawide {
+      letter-spacing: 0.15em;
+}
+
+.broken-text {
+      word-wrap: break-word;
+}
+
+.text-xxs {
+      font-size: 0.025rem;
+}
+
+
+
+.parallax-tilt-inner {
+      transform: translateZ(20px);
+}
+
+.parallax-tilt {
+      transform-style: preserve-3d;
+      transform: perspective(1000px);
+}
+
+.overlay{
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      overflow-y:scroll;
+      box-shadow: inset 0 0 50px #000;
+      -moz-box-shadow:    inset 0 0 50px #000;
+      -webkit-box-shadow: inset 0 0 50px #000;
+}
+
+/* Social icons */
+
+.linkedin-icon {
+      background-image: url('/img/linkedin.svg');
+      height: 32px;
+      width: 32px;
+}
+
+.github-icon {
+      background-image: url('/img/github.svg');
+      height: 32px;
+      width: 32px;
+}
+
+.discord-icon {
+      background-image: url('/img/discord.svg');
+      height: 32px;
+      width: 32px;
+}
+
+.mail-icon {
+      background-image: url('/img/mail.svg');
+      height: 32px;
+      width: 32px;
+}
